@@ -2,7 +2,7 @@
 require 'pry'
 
 def get_user_input
-  get.chomp
+  num = 2
 end
 def prompt_user
   puts "What would you like to do?"
@@ -10,7 +10,7 @@ def prompt_user
   puts "2.) Eat a ham."
 
 end
-def selection(num = 2)
+def selection(num)
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
