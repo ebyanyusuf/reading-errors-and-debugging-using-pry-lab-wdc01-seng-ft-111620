@@ -3,6 +3,7 @@ require 'pry'
 
 def get_user_input
   num = 2
+  num
 end
 def prompt_user
   puts "What would you like to do?"
