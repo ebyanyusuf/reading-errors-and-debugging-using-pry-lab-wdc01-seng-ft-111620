@@ -12,6 +12,7 @@ def prompt_user
 end
 binding.pry
 def selection(num)
+  runner
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
