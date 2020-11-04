@@ -1,18 +1,17 @@
 # don't forget to add: require 'pry'
 require 'pry'
 
-def get_user_input
-  gets.chomp
+def get_user_input(num)
+  num
 end
-def prompt_user (num1, num2)
+def prompt_user
   puts "What would you like to do?"
-  num1 = "1.) Eat a hamburger."
-  num2 = "2.) Eat a ham."
-  puts num1
-  puts num2
+  puts "1.) Eat a hamburger."
+  puts "2.) Eat a ham."
 
 end
 def selection(num)
+  get_user_input
   if num = 1
      "YUM YUM MUNCH MUNCH MUNCH"
   elsif num = 2
