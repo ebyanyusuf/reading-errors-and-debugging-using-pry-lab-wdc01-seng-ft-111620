@@ -1,10 +1,8 @@
 # don't forget to add: require 'pry'
 require 'pry'
 
-def get_user_input(num)
-  num = 2
-  puts num
-  num
+def get_user_input
+  get.chomp
 end
 def prompt_user
   puts "What would you like to do?"
