@@ -10,7 +10,6 @@ def prompt_user
   puts "2.) Eat a ham."
 
 end
-binding.pry
 def selection(num)
   runner
   if num = 1
