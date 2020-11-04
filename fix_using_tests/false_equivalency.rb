@@ -4,10 +4,12 @@ require 'pry'
 def get_user_input
   gets.chomp
 end
-def prompt_user
+def prompt_user (num1, num2)
   puts "What would you like to do?"
-  puts "1.) Eat a hamburger."
-  puts "2.) Eat a ham."
+  num1 = "1.) Eat a hamburger."
+  num2 = "2.) Eat a ham."
+  puts num1
+  puts num2
 
 end
 def selection(num)
